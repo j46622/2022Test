@@ -2,7 +2,9 @@
 Console.WriteLine("Hello, World!");
 
 
-while (true)
+int a = 0;
+while (a < 10)
 {
     Console.WriteLine("無限ループしないよ");
+    a++;
 }
